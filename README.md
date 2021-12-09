@@ -71,5 +71,3 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 - GitHub [@awaisspk](https://{github.com/awaisspk})
 - Twitter [@iamawaispk](https://{twitter.com/iamawaispk})
-
-
