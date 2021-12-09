@@ -10,7 +10,6 @@ export {
   Link,
   Mark,
   Text,
-  Quote,
   Small,
   Title,
   Strong,
