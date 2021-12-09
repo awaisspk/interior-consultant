@@ -1,2 +1,1 @@
-export {Button} from './Button';
-export {Link} from './Links';
+export {MenuButton} from './MenuBtn';
