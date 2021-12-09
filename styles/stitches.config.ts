@@ -3,10 +3,12 @@ import type * as Stitches from '@stitches/react';
 
 const StitchesConfig = createStitches({
   theme: {
-    colors: {},
+    colors: {
+      primary: 'rgba(24, 23, 25, 1)',
+    },
 
     fonts: {
-      primary: 'Inter', // set your font
+      primary: 'Inter',
     },
 
     fontSizes: {
@@ -154,6 +156,13 @@ const StitchesConfig = createStitches({
     bp4: '(min-width: 62em)',
     bp5: '(min-width: 80em)',
     bp6: '(min-width: 90em)',
+
+    bpmax1: '(max-width: 30em)',
+    bpmax2: '(max-width: 40em)',
+    bpmax3: '(max-width: 48em)',
+    bpmax4: '(max-width: 62em)',
+    bpmax5: '(max-width: 80em)',
+    bpmax6: '(max-width: 90em)',
   },
   utils: {
     bc: (value: Stitches.PropertyValue<'backgroundColor'>) => ({

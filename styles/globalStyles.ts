@@ -3,7 +3,7 @@ import {normalize} from 'stitches-normalize-css';
 
 export const globalStyles = globalCss(...normalize, {
   '@font-face ': {
-    fontFamily: 'Inter', // set font
+    fontFamily: 'Inter',
     fontStyle: 'normal',
     fontWeight: '100 900',
     fontDisplay: 'optional',
@@ -31,12 +31,14 @@ export const globalStyles = globalCss(...normalize, {
   },
 
   body: {
-    lineHeight: 1.5,
+    // lineHeight: 1.5,
+    background: '$primary',
   },
 
   'h1, h2, h3, h4,li,p': {
     overflowWrap: 'break-word',
-    hyphens: 'auto',
     WebkitHyphens: 'auto',
+    MsHyphens: 'auto',
+    hyphens: 'auto',
   },
 });
